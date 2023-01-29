@@ -1,0 +1,38 @@
+html {
+    background-color: aliceblue;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.wrapper {
+    padding-top: 30vm;
+    width: 330px;
+    margin: auto;
+    text-align: center;
+    border: 1px dashed #ccc;
+}
+
+.wrapper picture img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.wrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    font-weight: bold;
+    display: block;
+    padding: 16px;
+    margin-bottom: 5px;
+}
+
+.wrapper a:hover {
+    text-decoration: underline;
+}
