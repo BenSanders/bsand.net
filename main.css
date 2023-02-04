@@ -24,7 +24,7 @@ html {
     
 }
 
-.wrapper a {
+.wrapper ul a {
     text-decoration: none;
     color: #fff;
     background-color: red;
@@ -36,4 +36,11 @@ html {
 
 .wrapper a:hover {
     text-decoration: underline;
+}
+
+.wrapper a.badge picture img {
+    vertical-align: center;
+    width: 88px;
+    height: 31px;
+    padding: 5px;
 }
